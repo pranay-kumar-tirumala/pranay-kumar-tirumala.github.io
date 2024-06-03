@@ -8,8 +8,8 @@
 }
 html {
  font-family: 'light';
- font-size: 15px;
- line-height: 17px;
+ font-size: 16px;
+ line-height: 20px;
 }
 .heading {
     text-align: center;
@@ -21,10 +21,10 @@ html {
 .activity {
     display: flex;
     justify-content: start;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 .activity-key {
-    min-width: 130px
+    min-width: 160px
 }
 .activity-value {
     width: 100%
@@ -39,8 +39,8 @@ html {
 }
 .separator {
     height: 1px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     background-color: black;
 }
 .skill {
