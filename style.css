@@ -1,0 +1,56 @@
+@font-face {
+    font-family: bold;
+    /* src: url('Cormorant_Garamond/CormorantGaramond-Bold.ttf'); */
+    src: url('PPCirka-Free for personal use/PPCirka-Bold.otf');
+}
+@font-face {
+    font-family: light;
+    /* src: url('Cormorant_Garamond/CormorantGaramond-Light.ttf'); */
+    src: url('PPCirka-Free for personal use/PPCirka-Light.otf');
+}
+html {
+ font-family: 'light';
+ font-size: 15px;
+ line-height: 17px;
+}
+.heading {
+    text-align: center;
+    font-size: 18px;
+}
+.name-and-role {
+    font-family: bold;
+}
+.activity {
+    display: flex;
+    justify-content: start;
+    margin-top: 5px;
+}
+.activity-key {
+    min-width: 130px
+}
+.activity-value {
+    width: 100%
+}
+.activity-heading {
+    display: flex;
+    justify-content: space-between;
+    width: 100%
+}
+.activity-heading-text{
+    font-family: bold;
+}
+.separator {
+    height: 1px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: black;
+}
+.skill {
+    margin-right: 5px;
+}
+
+/* @media print {
+    .pagebreak {
+        page-break-before: always; 
+    } /\* page-break-after works, as well *\/
+} */
