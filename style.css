@@ -1,12 +1,10 @@
 @font-face {
     font-family: bold;
-    /* src: url('Cormorant_Garamond/CormorantGaramond-Bold.ttf'); */
-    src: url('./PPCirka-Bold.otf');
+    src: url('PPCirka-Free for personal use/PPCirka-Bold.otf');
 }
 @font-face {
     font-family: light;
-    /* src: url('Cormorant_Garamond/CormorantGaramond-Light.ttf'); */
-    src: url('./PPCirka-Light.otf');
+    src: url('PPCirka-Free for personal use/PPCirka-Light.otf');
 }
 html {
  font-family: 'light';
